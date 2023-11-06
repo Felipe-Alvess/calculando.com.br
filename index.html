@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculadora</title>
+</head>
+<body>
+    <header>
+        <h1>Calculadora Digital</h1>
+    </header>
+    
+
+    
+<div class="calculadora">
+
+<input type="text" id="display" readonly>
+
+<button onclick="appendTodisplay('%')">%</button>
+<button onclick="clearDisplay()">CE</button>
+<button onclick="clearDisplay()">C</button>
+<button onclick="appendTodisplay('/')">÷</button>
+<br>
+<button onclick="appendTodisplay('7')">7</button>
+<button onclick="appendTodisplay('8')">8</button>
+<button onclick="appendTodisplay('9')">9</button>
+<button onclick="appendTodisplay('*')">x</button>
+<br>
+<button onclick="appendTodisplay('4')">4</button>
+<button onclick="appendTodisplay('5')">5</button>
+<button onclick="appendTodisplay('6')">6</button>
+<button onclick="appendTodisplay('-')">-</button>
+<br>
+<button onclick="appendTodisplay('1')">1</button>
+<button onclick="appendTodisplay('2')">2</button>
+<button onclick="appendTodisplay('3')">3</button>
+<button onclick="appendTodisplay('+')">+</button>
+<br>
+<button onclick="appendTodisplay('+/-')">+/-</button>
+<button onclick="appendTodisplay('0')">0</button>
+<button onclick="appendTodisplay(',')">,</button>
+<button onclick="calculate()">=</button>
+</div>
+</body>
+<script src="script.js"></script>
+</html>
