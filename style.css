@@ -78,14 +78,14 @@ h1{
 @media screen and (max-width:768px) {
     .calculadora{
         margin-top: 10vw;
-        height: 70%;
+        height: 60%;
         padding: 2vw 18%;
         white-space: nowrap;
         background-color: rgba(0, 0, 0, 0.5)
     }
     button{
         position: relative;
-        top:30vh;
+        top:22vh;
         left: -55px;
         width: 40%;
         margin:4px;
