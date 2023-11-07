@@ -64,10 +64,38 @@ h1{
     color: white;
     font-family:Georgia, 'Times New Roman', Times, serif
 }
+.nome{
+    position: absolute;
+   top: 22%;
+   left: 48%;
+}
+.nome p{
+    color: white;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
 @media screen and (max-width:768px) {
     .calculadora{
-        padding: 20% 4%;
+        margin-top: 10vw;
+        height: 70%;
+        padding: 2vw 18%;
         white-space: nowrap;
         background-color: rgba(0, 0, 0, 0.5)
     }
+    button{
+        position: relative;
+        top:30vh;
+        left: -55px;
+        width: 40%;
+        margin:4px;
+    }
+    .nome{
+        position: relative;
+        left: 1px;
+        top: 17vh;
+        }
+        .nome p{
+            font-size: 25px;
+        }
 }
