@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="stylestyle.css">
+    <title>Calculadora Digital</title>
+</head>
+<body>
+    <!-- todo o conteudo -->
+    <div class="calculadora">
+        
+    <div class="box">
+     <h4>Calculadora Digital</h4>
+    <input type="text" id="display" readonly placeholder="0">
+    <div class="botoes">
+        <button onclick="clearDisplay()">C</button>
+        <button onclick="deleteNumber()"><i class='bx bx-arrow-back'></i></button>
+        <button onclick="calculate()">%</button>
+        <button onclick="appendToDisplay('/')">÷</button>
+
+        <button onclick="appendToDisplay('7')">7</button>
+        <button onclick="appendToDisplay('8')">8</button>
+        <button onclick="appendToDisplay('9')">9</button>
+        <button onclick="appendToDisplay('*')">x</button>
+
+        <button onclick="appendToDisplay('4')">4</button>
+        <button onclick="appendToDisplay('5')">5</button>
+        <button onclick="appendToDisplay('6')">6</button>
+        <button onclick="appendToDisplay('-')">-</button>
+
+        <button onclick="appendToDisplay('1')">1</button>
+        <button onclick="appendToDisplay('2')">2</button>
+        <button onclick="appendToDisplay('3')">3</button>
+        <button onclick="appendToDisplay('+')">+</button>
+
+        <button onclick="appendToDisplay('0')">0</button>
+        <button onclick="appendToDisplay('.')">.</button>
+        <button onclick="appendToDisplay(',')">,</button>
+        <button style="background-color: red; color: #fff; border: none;" onclick="calculate()">=</button>
+    </div>
+    </div>
+    </div>
+     <!-- todo o conteudo -->
+</body>
+<script src="script.js"></script>
+</html>
